@@ -1,2 +1,2 @@
 # LeetCode
-Solved tasks from LeetCode.
+**Solved tasks for Go from the LeetCode.**
