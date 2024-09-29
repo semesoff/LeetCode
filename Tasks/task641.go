@@ -75,7 +75,7 @@ func (this *MyCircularDeque) IsFull() bool {
 }
 
 func main() {
-	circularDeque := Constructor(3)
+	circularDeque := NewMyCircularDeque(3)
 	fmt.Println(circularDeque.InsertLast(1))  // return true
 	fmt.Println(circularDeque.InsertLast(2))  // return true
 	fmt.Println(circularDeque.InsertFront(3)) // return true
