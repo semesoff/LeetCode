@@ -3,16 +3,16 @@ package main
 import "fmt"
 
 type MyCircularDeque struct {
-	deque      []int
-	capacity   int
-	size       int
+	deque    []int
+	capacity int
+	size     int
 }
 
 func Constructor(k int) MyCircularDeque {
 	return MyCircularDeque{
-		deque:      make([]int, 0),
-		capacity:   k,
-		size:       0,
+		deque:    make([]int, 0),
+		capacity: k,
+		size:     0,
 	}
 }
 
@@ -75,7 +75,7 @@ func (this *MyCircularDeque) IsFull() bool {
 }
 
 func main() {
-	circularDeque := NewMyCircularDeque(3)
+	circularDeque := Constructor(3)
 	fmt.Println(circularDeque.InsertLast(1))  // return true
 	fmt.Println(circularDeque.InsertLast(2))  // return true
 	fmt.Println(circularDeque.InsertFront(3)) // return true
